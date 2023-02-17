@@ -1,0 +1,73 @@
+FiveMStoreBot Feature List
+This page contains a full feature list for FiveMStoreBot.
+
+Multiple prefixes.
+Over 120 configuration options in a config file.
+Nearly all channel outputs from the bot can be configured to multiple channels instead of just one.
+Logging Deleted messages.
+Logging Role updates.
+Logging Role edited.
+Logging Command logging.
+Logging Edited messages.
+Logging Channel creates.
+Logging Channel edits.
+Logging Channel deletes.
+Admin Management Have three configuration staff ranks with permission use.
+Admin Management Option to restrict commands with custom permissions.
+Admin Management Tracing of user actions. total mutes, kicks, joins, bans, messages sent, messages deleted.
+DM User Module Receive bot messages and replies.
+Utility Module Member count channel.
+Auto Role Module Assign a group of roles to users when they join.
+Greet Module Welcome messages.
+Greet Module Leave messages.
+Greet Module Option to use fancy embeds on leave and welcome messages.
+Greet Module Option to use welcome/leave image instead of embed or text ().
+Language Module Filter words and terms and restrict them.
+Language Module Ability to whitelist roles to bypass the filtered words and terms.
+Levelling Module Levelling system (toggleable).
+Levelling Module Gain extra XP from attachments and longer messages.
+Levelling Module Custom level up messages.
+Levelling Module Options to remove levels on leave and/or removal.
+Levelling Module Display rank names for people with certain levels.
+Levelling Module Send an image with a users rank and XP
+Ticket Module Ticket system with no restriction on the amount of support roles.
+Ticket Module Tickets get sorted in a category.
+Ticket Module Ability to archive tickets (https://faxes.zone/i/c929m.png).
+Ticket Module Up to three custom questions to be asked when users create a ticket (faxes.zone/i/35hy5.gif).
+Auto Reply Messages Ability to reply to a users message automatically. You can make an unlimited amount of these with your own configuration.
+Easy to install addon commands and extensions. Drag and drop!
+Command List
+General Commands
+
+sinfo/guildinfo: Get all the guilds information and statistics.
+help/cmds: Show help message with slides that go through each command category.
+Utility Commands
+
+FiveMStoreBot/botcredits: Displays the original bots author and how you can obtain it.
+timer: Set a timer for an amount of time.
+uptime: Get the bots uptime.
+ping: Ping the bot and see if how it’s going.
+poll: Create a checkmark based poll.
+xp/rank: Get yours or another users rank and chat level.
+leaderboard/lb: The leaderboard with top chat level users.
+Ticket Commands
+
+new/ticket: Create a new ticket.
+archive: Archive a ticket and generate it into a html file.
+close: Close a ticket channel
+rename: Rename a ticket channel.
+Moderation Commands
+
+ban: Ban a user via mention or ID.
+say/echo: Echo a message as the bot.
+sayem/echoem: Echo a message as the bot in an embed.
+kick: Kick a user.
+clear/purge: Bulk delete an amount of messages.
+msg/message: DM users through the bot. Good tool to reply to bot DMs.
+mute: Mute a user for the specified amount of time.
+setstatus: Set the bots presence.
+unban: Unbans a user via ID or tag.
+unwarn: Remove a users warning.
+userinfo/ui: Get a users profile and guild information.
+warn: Warn a user for an action.
+This is only the base bots command not including extension commands or features.

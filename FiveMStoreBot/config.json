@@ -1,0 +1,180 @@
+{
+    "bot_setup": {
+        "prefix": ["."],
+        "token": "YOUR_DISCORD_TOKEN",
+        "copyright": "© 2020 Your Discord Name",
+        "bot_status": "online",
+        "bot_game_type": "PLAYING",
+        "bot_game": "Some_Game_Presence",
+        "feature_color": "#ff0000",
+        "debug_mode": false
+    },
+
+    "db_setup": {
+        "usedb": false,
+        "dbhost": "localhost",
+        "dbuser": "username",
+        "dbpassword": "password",
+        "dbname": "database"
+    },
+
+    "greet_module": {
+        "enabled": true,
+        "display_setting": 2,
+        "welcome_channels": [""],
+        "leave_channels": [""],
+        "welcome_message": "has joined the Discord.",
+        "leave_message": "has left the Discord."
+    },
+
+    "auto_role_module": {
+        "enabled": true,
+        "join_roles": [""]
+    },
+
+    "admin_management": {
+        "owner_roles": [""],
+        "admin_roles": [""],
+        "staff_roles": [""],
+        "use_custom_perms": true,
+        "owner_rank_display_name": "Owner",
+        "admin_rank_display_name": "Administrator",
+        "staff_rank_display_name": "Staff",
+        "enable_user_statistics": true
+    },
+
+    "moderation_module": {
+        "enabled": false,
+        "mute_role": "",
+        "dm_kicked_user": false,
+        "dm_banned_user": false,
+        "dm_muted_user": false,
+        "dm_warned_user": false,
+        "anti_spam_filter": false,
+        "spam_max_messages": 4,
+        "anti_spam_reply": "Message deleted for spam."
+    },
+
+    "logging_module": {
+        "enable_deleted_messages_logging": false,
+        "deleted_messages_channels": [""],
+
+        "enable_edited_messages_logging": false,
+        "edited_messages_channels": [""],
+
+        "enable_role_change_logging": false,
+        "role_change_channels": [""],
+
+        "enable_command_logging": false,
+        "command_logging_channels": [""],
+
+        "enable_channel_change_logging": false,
+        "channel_change_channels": [""],
+
+        "enable_kick_logging": false,
+        "kick_channels": [""],
+
+        "enable_ban_logging": false,
+        "ban_channels": [""],
+
+        "enable_warn_logging": false,
+        "warn_channels": [""],
+
+        "enable_mute_logging": false,
+        "mute_channels": [""],
+
+        "enable_unban_logging": false,
+        "unban_channels": [""]
+    },
+
+    "utility_module": {
+        "enabled": false,
+        "about": "Put your description about your Discord here.",
+        "member_count_channel_enabled": false,
+        "member_count_channel": ""
+    },
+
+    "language_module": {
+        "enabled": false,
+        "filter_words": [""],
+        "bypass_roles": [""]
+    },
+
+    "leveling_module": {
+        "enabled": false,
+        "gain_extra_xp_from_attachments": false,
+        "amount_added_from_attachments": 20,
+        "gain_extra_xp_from_longer_messages": false,
+        "amount_added_from_longer_messages": 100,
+        "enable_rank_command": true,
+        "enable_rank_command_image": true,
+        "enable_level_up_messages": true,
+        "enable_level_up_embeds": false,
+        "levelup_messages": ["You have levelled up!", "Congrats, you've levelled up."],
+        "remove_levels_on_leave": false,
+        "remove_levels_on_removal": false,
+        
+        "below_10_rank_name": "Novice Member",
+        "above_10_rank_name": "Basic Member",
+        "above_25_rank_name": "Junior Member",
+        "above_50_rank_name": "Member",
+        "above_75_rank_name": "Senior Member",
+        "above_100_rank_name": "Regular",
+        "above_150_rank_name": "Leader",
+        "above_200_rank_name": "Veteran Member",
+        "above_250_rank_name": "Expert",
+        "above_300_rank_name": "Expert",
+        "above_500_rank_name": "Legend"
+    },
+
+    "ticket_module": {
+        "enabled": false,
+        "support_roles": [""],
+        "ticket_category": "",
+        
+        "custom_question_one": "",
+        "custom_question_two": "",
+        "custom_question_three": "",
+        "enable_archive": false,
+        "archive_file_channels": [""]
+    },
+
+    "auto_response_messages": {
+        "enabled": false,
+        "ignore_tickets": false,
+        "messages": [
+            {"contains": true, "deleteOP": false, "content": "hi", "reply": "Hey there!"}
+        ]
+    },
+
+    "dm_user_module": {
+        "enabled": false,
+        "use_embeds": false,
+        "log_bot_dms_channels": [""]
+    },
+
+    "command_perms": {
+        "ban_needed_perm": 2,
+        "unban_needed_perm": 2,
+        "kick_needed_perm": 3,
+        "mute_needed_perm": 3,
+        "warn_needed_perm": 3,
+        "unwarn_needed_perm": 3,
+        "userinfo_needed_perm": 3,
+        "say_needed_perm": 3,
+        "sayem_needed_perm": 3,
+        "clear_needed_perm": 3,
+        "new_needed_perm": 4,
+        "close_needed_perm": 3,
+        "help_needed_perm": 4,
+        "sinfo_needed_perm": 4,
+        "ping_needed_perm": 4,
+        "poll_needed_perm": 3,
+        "uptime_needed_perm": 4,
+        "leaderboard_needed_perm": 4,
+        "rank_needed_perm": 4,
+        "message_needed_perm": 2,
+        "set_status_needed_perm": 3,
+        "archive_needed_perm": 3
+    }
+}

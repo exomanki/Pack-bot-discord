@@ -1,0 +1,24 @@
+{
+  "name": "fivemstorebot",
+  "version": "1.0.0",
+  "description": "FiveMStoreBot is a Discord.Js bot created by -MeTi-#1111 used for multiple purposes.",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^3.2.0",
+    "canvas": "^2.6.1",
+    "create-html": "^4.1.0",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "express.js": "^1.0.0",
+    "glob": "^7.1.6",
+    "ms": "^2.1.2",
+    "mysql": "^2.18.1",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "-MeTi-",
+  "license": "Your Account On FiveM Store"
+}

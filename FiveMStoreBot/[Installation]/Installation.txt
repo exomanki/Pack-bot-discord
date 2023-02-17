@@ -1,0 +1,47 @@
+Step 1 - Requirements
+FiveMStoreBot has some requirements to have your bot placed online. This guide assumes you have the below things set up and operating.
+
+A Linux/Windows/OSX server (e.g; VPS, Dedi).
+Node.js (with npm) install via Windows install via Linux.
+Text editor program (e.g; Visual Studio Code, Notepad++)
+
+Step 2 - Creating A Discord Application
+First off you will need to head on to the Discord developer portal and create an application.
+
+Click on Bot > Add Bot. Then copy the token, use this in the config.json file in the next step. once done, go back to the General Information tab and copy the Client ID. Go to the below link and insert the client ID in the URL.
+
+https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID_HERE&scope=bot&permissions=8
+Replace the CLIENT_ID_HERE with your bots Client ID. This will invite the bot into the selected Discord when you enter the URL.
+
+Step 3 - Install Bot Files
+Unpackage your bot into a folder where you wish to run the bot from. A folder on the desktop will work in most cases for Windows users. For Linux, the /home directory should work. Extract the package into the folder.
+
+Step 4 - Configuration
+FiveMStoreBot is a feature rich bot and with that is over 150 configuration options. Be sure to check out the FiveMStoreBot Configuration Documentation for details on each configuration option.
+
+Edit the config.json file to your liking. Make sure to place the token into the token location. we copied this in Step 2 above. Once that is edited, save it.
+
+IMPORTANT. READ THIS!!! The /db folder should not be touched at all unless you know what you’re doing! you can break your bot massively if you make even minor edits to files in this folder!
+
+Step 5 - Starting Bot
+Navigate to the folder where your bot is install in. and run the below listed commands for your OS.
+
+Windows:
+
+In the folder of your bot use SHIFT and RIGHT CLICK and select Open Powershell window here
+Run the below command. If NPM does not work, make sure Node.js is installed globally (C: drive) and not in some folder in a different location.
+npm i
+This installs all the packages required for FiveMStoreBot to run. 3. Run the start command to have your bot online.
+
+node index.js
+You will always use this command to start the bot. Use Ctrl + C to stop the bot.
+
+Linux:
+
+Navigate to the folder of your bot via cd
+cd /home/FiveMStoreBot
+Run the below command. If NPM does not work, make sure Node.js is installed globally and not in some folder in a different location.
+npm i
+Now you can start your bot making your bot online.
+node index.js
+You will always use this command to start the bot. Use Ctrl + C to stop the bot.
