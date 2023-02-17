@@ -1,4 +1,4 @@
-What is this plugin: Makes it easier to access your server with a Web page
+Qu'est-ce que ce plugin : Facilite l'accès à votre serveur avec une page Web
 
 
 
@@ -7,11 +7,11 @@ Setup :
 
 
 
-- You must have any Domain and Webhost
+- Vous devez avoir n'importe quel domaine et hôte Web
 
 - Open Subdomain from FileZilla and drop the uploaded file into it
 
-- Installation Process is complete.
+- Le processus d'installation est terminé.
 
 
 
@@ -20,14 +20,13 @@ Setup :
 Specifications :
 
 
+- Vous pouvez facilement vous connecter à votre serveur
 
-- You can easily login to your server
+- Vous pouvez utiliser un joli système sur vos serveurs
 
-- You can use a nice looking system on your servers
+- Vous ne rencontrerez aucun événement de type chargement de serveur
 
-- You will not encounter any server load-like events
-
-- You can edit the server ip and discord address from index.html
+- Vous pouvez modifier l'adresse IP du serveur et l'adresse discorde à partir de index.html
 
 
 
